@@ -8,7 +8,7 @@ namespace Lucky_ticket
         {
             do
             {           
-                Console.Write("Enter ticket number => ");
+                Console.Write("Enter ticket number =>");
                 var inputString =Console.ReadLine();
                 inputString = Validation.TicketValidation(inputString);
                 if (inputString != null)
